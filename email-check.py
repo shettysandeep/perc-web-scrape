@@ -48,9 +48,9 @@ def reach_smtp( email_add, sender_mail, host):
 
 
 if __name__ == '__main__':
-    email_add = "rmoore@lometaisd.org"
-    host = "survey.impaqint.com"
-    sender_mail = 'perc@air.org'
+    email_add = "recipient@domain.com"
+    host = "domain.com"
+    sender_mail = 'sender@domain.org'
     print(get_mx(email_add))
     code, message = reach_smtp(email_add = email_add,
                                host = host,
